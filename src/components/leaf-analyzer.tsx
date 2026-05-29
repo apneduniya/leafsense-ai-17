@@ -166,7 +166,7 @@ export function LeafAnalyzer() {
                 <span className="block text-sm text-muted-foreground">Pick an existing image from your device.</span>
               </span>
             </button>
-            <input ref={fileInputRef} type="file" accept="image/*" hidden onChange={onFilePicked} />
+            <input ref={fileInputRef} type="file" accept="image/*" className="sr-only" onChange={onFilePicked} />
           </div>
         )}
 
